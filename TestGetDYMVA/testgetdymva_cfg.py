@@ -16,7 +16,7 @@ process.MessageLogger.cerr.FwkReport.reportEvery = cms.untracked.int32(1000)
 
 process.source = cms.Source("PoolSource",
     fileNames = cms.untracked.vstring(
-        'file:/smurf/cerati/Sync2012/00D848CB-F76F-E111-A0DE-0024E8769B39.root'
+        'rfio:/castor/cern.ch/user/e/emanuele/AODSummer12/00D848CB-F76F-E111-A0DE-0024E8769B39.root'
     )
 )
 
